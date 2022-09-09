@@ -1,6 +1,7 @@
 package lib
 
 import (
+	"net/url"
 	"bitbucket.org/taubyte/go-sdk/event"
 	"bitbucket.org/taubyte/go-sdk/pubsub"
 )
