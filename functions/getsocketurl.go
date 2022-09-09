@@ -10,11 +10,11 @@ func getChannel(h event.HttpEvent) string {
 	room, _ := h.Query().Get("room")
 
 	channelName := "someChannel"
-	if len(room) > 0 {
-		channelName += "/" + room
+	if len(room) == 0 {
+		room = "default"
 	}
 
-	return channelName
+	return channelName + "/" + room
 }
 
 //export getsocketurl
