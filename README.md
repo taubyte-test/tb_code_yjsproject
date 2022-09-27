@@ -1,1 +1,1 @@
-This is your code repositorys
+This is your code repository
